@@ -1,5 +1,5 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Roboto";
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -89,4 +89,43 @@ body {
     right: 150px;
   }
 
+  .information-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .info-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+  }
+
+  img {
+    width: 210px;
+    height: 310px;
+  }
+
+  .item-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 75px;
+    margin-bottom: 96px;
+  }
+
+  .item {
+    align-items: center;
+    max-width: 200px;
+  }
+
+  .caption {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  
   
