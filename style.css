@@ -71,7 +71,7 @@ body {
     color: #E5E7EB;
   }
 
-  #header-button {
+  #button1 {
     font-size: 18px;
     font-weight: bold;
     color: #f9faf8;
@@ -150,4 +150,37 @@ body {
     font-size: 24px;
     font-weight: bold;
     text-align: right;
+  }
+
+  .action-container {
+    background-color: #3882f6;
+    padding: 50px 100px;
+    margin: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+
+  .call-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .action-caption {
+    color: #e5e7eb;
+    font-size: 16px;
+  }
+
+  #button2 {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: #f9faf8;
+    border-radius: 10px;
+    border-style: solid;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;  
   }
