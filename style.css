@@ -184,3 +184,11 @@ body {
     height: 40px;
     cursor: pointer;  
   }
+
+  .footer-container {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+  }
