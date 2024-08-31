@@ -127,5 +127,27 @@ body {
     text-align: center;
   }
 
+  .quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 250px;
+    gap: 20px;
+  }
+
+  .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
   
-  
+  .author {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+  }
